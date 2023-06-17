@@ -1,0 +1,38 @@
+Collecting FuzzyTM
+  Downloading FuzzyTM-2.0.5-py3-none-any.whl (29 kB)
+Collecting pyfume
+  Downloading pyFUME-0.2.25-py3-none-any.whl (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.1/67.1 kB 1.7 MB/s eta 0:00:00
+Requirement already satisfied: numpy in /home/siddhu/anaconda3/lib/python3.10/site-packages (from FuzzyTM) (1.23.1)
+Requirement already satisfied: pandas in /home/siddhu/anaconda3/lib/python3.10/site-packages (from FuzzyTM) (1.5.3)
+Requirement already satisfied: scipy in /home/siddhu/anaconda3/lib/python3.10/site-packages (from FuzzyTM) (1.10.0)
+Requirement already satisfied: python-dateutil>=2.8.1 in /home/siddhu/anaconda3/lib/python3.10/site-packages (from pandas->FuzzyTM) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /home/siddhu/anaconda3/lib/python3.10/site-packages (from pandas->FuzzyTM) (2022.7)
+Collecting fst-pso
+  Downloading fst-pso-1.8.1.tar.gz (18 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting simpful
+  Downloading simpful-2.10.0-py3-none-any.whl (31 kB)
+Requirement already satisfied: six>=1.5 in /home/siddhu/anaconda3/lib/python3.10/site-packages (from python-dateutil>=2.8.1->pandas->FuzzyTM) (1.16.0)
+Collecting miniful
+  Downloading miniful-0.0.6.tar.gz (2.8 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: requests in /home/siddhu/anaconda3/lib/python3.10/site-packages (from simpful->pyfume->FuzzyTM) (2.28.1)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/siddhu/anaconda3/lib/python3.10/site-packages (from requests->simpful->pyfume->FuzzyTM) (1.26.14)
+Requirement already satisfied: certifi>=2017.4.17 in /home/siddhu/anaconda3/lib/python3.10/site-packages (from requests->simpful->pyfume->FuzzyTM) (2022.12.7)
+Requirement already satisfied: idna<4,>=2.5 in /home/siddhu/anaconda3/lib/python3.10/site-packages (from requests->simpful->pyfume->FuzzyTM) (3.4)
+Requirement already satisfied: charset-normalizer<3,>=2 in /home/siddhu/anaconda3/lib/python3.10/site-packages (from requests->simpful->pyfume->FuzzyTM) (2.0.4)
+Building wheels for collected packages: fst-pso, miniful
+  Building wheel for fst-pso (setup.py): started
+  Building wheel for fst-pso (setup.py): finished with status 'done'
+  Created wheel for fst-pso: filename=fst_pso-1.8.1-py3-none-any.whl size=20430 sha256=cf6fe5714873e8b2ab3d281be0fef73dcdd05e62c845ce2488f9e0d9b5829941
+  Stored in directory: /home/siddhu/.cache/pip/wheels/01/02/ee/df0699282986903a384b69aab4413af9efd26b3612b5dccc9e
+  Building wheel for miniful (setup.py): started
+  Building wheel for miniful (setup.py): finished with status 'done'
+  Created wheel for miniful: filename=miniful-0.0.6-py3-none-any.whl size=3513 sha256=57075a107238e0db72e98a4f206455af058bae6ec78d14e4bf7cb5d2f5567404
+  Stored in directory: /home/siddhu/.cache/pip/wheels/43/aa/48/5c66b931ff013ad19774081aa19656637af5c0cc33b5494b30
+Successfully built fst-pso miniful
+Installing collected packages: simpful, miniful, fst-pso, pyfume, FuzzyTM
+Successfully installed FuzzyTM-2.0.5 fst-pso-1.8.1 miniful-0.0.6 pyfume-0.2.25 simpful-2.10.0
